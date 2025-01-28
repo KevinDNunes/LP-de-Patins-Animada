@@ -24,6 +24,10 @@
   --text-xl: 4rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, button {
   font: 600 1rem/1.5 "Montserrat", sans-serif;
 }
