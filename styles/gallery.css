@@ -3,6 +3,10 @@ section.gallery {
   padding: 2.5rem 2rem;
   margin-inline: auto;
 
+  @media (width <= 64rem )  {
+    padding: 1.5rem 1rem;
+  }
+
   & header {
     text-align: center;
   }
@@ -24,6 +28,12 @@ section.gallery {
     "C C D";
 
     gap: 2.5rem;
+
+    @media (width <= 64rem ) {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
 
     
   }
